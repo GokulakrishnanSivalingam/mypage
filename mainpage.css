@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #2f3640
+}
+
+
+/*.bigbox {
+    display: grid;
+    grid-template-columns: (auto-fit, minmax(220px, auto));
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}*/
+
+.nav {
+    background-color: rgb(87, 120, 252);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0%
+}
+
+.nav span {
+    color: white;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+.nav ul {
+    float: right;
+    padding: 0%;
+}
+
+.nav li {
+    display: inline-block;
+    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 30px;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    background-color: #2f3640;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prof h2 {
+    color: white;
+    overflow: hidden;
+    border-right: 1px solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 35%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav ul {
+        position: fixed;
+        left: 0;
+        width: 25%;
+        height: 100%;
+        background-color: rgb(87, 120, 252);
+        transition: 0.8s;
+        left: -100%
+    }
+    ul.slide {
+        left: 0;
+        transition: 0.8s;
+    }
+    .nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+    }
+    .hamburger {
+        float: left;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .cart {
+        visibility: visible;
+        float: right;
+        cursor: pointer;
+        line-height: 50px;
+        margin-left: 5px;
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .login {
+        visibility: visible;
+        float: right;
+        cursor: pointer;
+        line-height: 50px;
+        margin-left: 5px;
+        color: white;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .icon2 {
+        visibility: hidden;
+    }
+    .hamburger .line {
+        background-color: white;
+        width: 5px;
+        height: 5px;
+        margin-bottom: 5px;
+        display: block;
+        margin-right: 15px;
+        cursor: pointer;
+        font-weight: 100;
+    }
+    .nav ul li a:hover {
+        background-color: #2f3640;
+        color: white;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    /*  .auction fieldset {
+        background-color: white;
+        margin-left: 15px;
+        margin-right: 25px;
+        margin-bottom: 30px;
+        border: none;
+        
+    }*/
+    .prof h2 {
+        color: white;
+        overflow: hidden;
+        border-right: 1px solid white;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+    }
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 100%
+        }
+    }
+}
+
+.prof img {
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
+    border-radius: 100%;
+}
+
+button {
+    height: 35px;
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(87, 120, 252);
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: WHITE;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.footer p {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
